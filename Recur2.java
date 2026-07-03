@@ -2,9 +2,9 @@ public class Recur2{
     static void printName(int num){
         if(num == 0){
             return;
-        }System.out.println("hello shubham" + num);
+        }System.out.println("hello shubham" + num);//stack built
         printName(num-1);
-        System.out.println("bye shubham" + num); 
+        System.out.println("bye shubham" + num); // stack fall
         
 
     }
